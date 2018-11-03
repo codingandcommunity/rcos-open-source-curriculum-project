@@ -6,6 +6,8 @@
 
 This repository aggregates documentation, specifications, and links to other repositories for the purpose of evaluation for developers participating in RCOS as a graded class.
 
+This repository is part of the [RCOS Open Source Curriculum Project](https://github.com/codingandcommunity/rcos-open-source-curriculum-project). View that repository for additional documentation for the entire system.
+
 ## Microservice Architecture
 
 This project uses a serverless microservice architecture. It has many components across many GitHub repositories. Here is a list:
