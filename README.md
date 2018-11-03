@@ -25,3 +25,9 @@ This list is currently incomplete. It is missing the ATOM plugin and possibly ot
 Part of the open source curriculum project is a website that serves rich content and metadata about the projects students can complete. This website is implemented as a ReactJS frontend that pulls data from a JSON api that runs on AWS Lambda.
 
 ![Spaceport/Booster Architecture Diagram](docs/spaceport-architecture.png)
+
+### Past Contributors ###
+
+Add your name here if you're committing changes to this repository.
+
+- [Jake Billings](https://jakebillings.com)
