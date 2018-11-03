@@ -26,6 +26,11 @@ Part of the open source curriculum project is a website that serves rich content
 
 ![Spaceport/Booster Architecture Diagram](docs/spaceport-architecture.png)
 
+## Development AWS URLs
+
+- Backend API: https://qdljuxtz6h.execute-api.us-east-1.amazonaws.com/prod/projects
+- Frontend Website: https://d2rnbxax6frc7g.cloudfront.net/
+
 ### Past Contributors ###
 
 Add your name here if you're committing changes to this repository.
