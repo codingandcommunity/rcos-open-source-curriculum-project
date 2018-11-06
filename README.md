@@ -28,7 +28,8 @@ Part of the open source curriculum project is a website that serves rich content
 
 ## Development AWS URLs
 
-- Backend API: https://qdljuxtz6h.execute-api.us-east-1.amazonaws.com/prod/projects
+- Backend API (Raw Lambda): https://qdljuxtz6h.execute-api.us-east-1.amazonaws.com/prod/projects
+- Backend API (Cached on CloudFront): https://d3852d07prc7x3.cloudfront.net
 - Frontend Website: https://d2rnbxax6frc7g.cloudfront.net/
 
 ### Past Contributors ###
