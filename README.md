@@ -38,3 +38,4 @@ Part of the open source curriculum project is a website that serves rich content
 Add your name here if you're committing changes to this repository.
 
 - [Jake Billings](https://jakebillings.com)
+- [Mitchell Falkow](https://github.com/mdfalkow)
