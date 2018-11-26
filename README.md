@@ -8,6 +8,15 @@ This repository aggregates documentation, specifications, and links to other rep
 
 This repository is part of the [RCOS Open Source Curriculum Project](https://github.com/codingandcommunity/rcos-open-source-curriculum-project). View that repository for additional documentation for the entire system.
 
+## Curriculum Specifications
+
+The unifying element of this project is curriculum specifications. Curriculum specifications
+are a series of configuration files, instruction sets, and code that are interpreble
+by the Atom plugin, allowing for students to experience project-based learning in a
+guided environment. A detailed description of curriculum specifications can be found
+[here](curriculum_spec.md).
+
+
 ## Microservice Architecture
 
 This project uses a serverless microservice architecture. It has many components across many GitHub repositories. Here is a list:
@@ -40,3 +49,4 @@ Add your name here if you're committing changes to this repository.
 
 - [Jake Billings](https://jakebillings.com)
 - [Mitchell Falkow](https://github.com/mdfalkow)
+- [Ethan Graf](https://ethangraf.com)
