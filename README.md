@@ -8,6 +8,9 @@ This repository aggregates documentation, specifications, and links to other rep
 
 This repository is part of the [RCOS Open Source Curriculum Project](https://github.com/codingandcommunity/rcos-open-source-curriculum-project). View that repository for additional documentation for the entire system.
 
+## Contributing to this Repository
+Adding documentation is awesome! Please do it. However, if you do, please use the pull request system so that we can review your changes.
+
 ## Curriculum Specifications
 
 The unifying element of this project is curriculum specifications. Curriculum specifications
