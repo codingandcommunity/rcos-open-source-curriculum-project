@@ -13,8 +13,13 @@ For project curriculums, the goal is to create a "guided project", that provide 
 
 ### Project Repositories
 
-An example guided project curriculum repository can be found [here](https://github.com/codingandcommunity/sample-curriculum). The actual [project repository](https://github.com/codingandcommunity/sample-app/) that the curriculum is based off of is external. Each stage within the curriculum repository is represnted by a [Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) referring to the project repository, with each stage referring to a different branch.
+An example guided project curriculum repository can be found [here](https://github.com/codingandcommunity/sample-curriculum). 
+When you take a look at it on GitHub, it may look a bit like this
 
+![coding and community logo](imgs/stages.png)
+
+Note that the various stages of the project are represented by [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Each module links to a particular branch in the project repository, corresponding to that stage. Note that 
+the actual [project repository](https://github.com/codingandcommunity/sample-app/) that the curriculum is based off of is external to the curriculum repository.
 ### Project Task Specifications
 
 ### Concept Specifications
