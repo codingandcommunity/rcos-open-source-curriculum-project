@@ -40,6 +40,11 @@ Part of the open source curriculum project is a website that serves rich content
 
 ![Spaceport/Booster Architecture Diagram](docs/spaceport-architecture.png)
 
+## Booster Architecture Diagram
+The Booster API should follow microservice design principles. Services are split into _features_ where features are defined to be sets of responsibilities that one or more people are responsible for. This should allow for healthy long-term growth and maintenance of this project through high developer turnover.
+
+![Booster Architecture Diagram](imgs/presentation-backend-microservices.png)
+
 ## Development AWS URLs
 
 - Backend API (Raw Lambda): https://qdljuxtz6h.execute-api.us-east-1.amazonaws.com/prod/projects
