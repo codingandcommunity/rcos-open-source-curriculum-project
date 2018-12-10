@@ -19,20 +19,27 @@ by the Atom plugin, allowing for students to experience project-based learning i
 guided environment. A detailed description of curriculum specifications can be found
 [here](curriculum_spec.md).
 
+## Repositories
 
-## Microservice Architecture
-
-This project uses a serverless microservice architecture. It has many components across many GitHub repositories. Here is a list:
+This project is split into several main parts, including a web frontend, an Atom plugin, backend microservices, curriculum repositories and various other small helpers. Here is a comprehensive list of code repositories:
 
 | Repository      | Description                                                                                  | Link                                                                 |
 | ----------------|--------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Spaceport       | React Frontend for the Booster API. Allows users to view projects online.                    | https://github.com/codingandcommunity/spaceport                      |
-| Booster         | This is the backend API that hosts meta data for all projects that students can complete.    | https://github.com/codingandcommunity/booster-read-projects-function |
-| Example Project | This is an example project that students studing this curriculum may use. Specialize format. | https://github.com/codingandcommunity/booster-project-hello-world    |
-| Warp Drive      | Atom plugin for delivering and managing project and curriculum data for the students         | https://github.com/codingandcommunity/fast-forward                   |
-| Omniscience     | This Mocha/Chai test script verifies that coding&&community web properties are online        | https://github.com/codingandcommunity/omniscience                    |
+| Spaceport          | React Frontend for the Booster API. Allows users to view projects online.                    | https://github.com/codingandcommunity/spaceport                      |
+| Booster            | This is the backend API that hosts meta data for all projects that students can complete.    | https://github.com/codingandcommunity/booster-read-projects-function |
+| Warp Drive         | Atom plugin for delivering and managing project and curriculum data for the students         | https://github.com/codingandcommunity/fast-forward                   |
+| Omniscience        | This Mocha/Chai test script verifies that coding&&community web properties are online        | https://github.com/codingandcommunity/omniscience                    |
+| Curriculum Utility | A simple Python script to help parse git logs of a project into curriculum stages.           | https://github.com/codingandcommunity/curriculum_utility             |
 
-This list is currently incomplete. It is missing the ATOM plugin and possibly other repositories.
+And the following is a list of repositories containing curriculum information:
+
+| Repository      | Description                                                                                  | Link                                                                 |
+| ----------------|--------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Example Project   | This is an example project that students studing this curriculum may use. Specialize format. | https://github.com/codingandcommunity/booster-project-hello-world     |
+| Sample Curriculum | This is an example project where a student implements a chess game using React. Built for testing purposes. | https://github.com/codingandcommunity/sample-curriculum   |
+| Sample App        | The actual projec that the above sample curriculum references. Modules of sample curriculum link to this repository. | https://github.com/codingandcommunity/sample-app        |
+| React Curriculum  | Teaching introductory programming in a React environment.          | https://github.com/codingandcommunity/RCOSReactcurriculum              |
+
 
 ## Spaceport/Booster Architecture Diagram
 
