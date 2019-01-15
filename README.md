@@ -21,6 +21,8 @@ guided environment. A detailed description of curriculum specifications can be f
 
 ## Repositories
 
+Projects that are part of this project should follow the [coding&&community style guide](https://github.com/codingandcommunity/style-guide).
+
 This project is split into several main parts, including a web frontend, an Atom plugin, backend microservices, curriculum repositories and various other small helpers. Here is a comprehensive list of code repositories:
 
 | Repository      | Description                                                                                  | Link                                                                 |
