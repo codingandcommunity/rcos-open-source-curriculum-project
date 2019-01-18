@@ -52,7 +52,9 @@ next: step_2.md
 prev: introduction.md
 jumpto: @ref:step1.1
 ---
-Given a variable declaration `int x` we can use `scanf("%d", x)` can be used to a read an integer from the console and assign it to x. Use that [here](@ref:step1.1) to read in two integers, compute the sum, and assign it to `sum`!
+Given a variable declaration `int x` we can use `scanf("%d", x)` can be used to a read an integer from
+the console and assign it to x. Use that [here](@ref:step1.1) to read in two integers, compute the sum,
+and assign it to `sum`!
 ```
 
 #### Header Tags
@@ -66,7 +68,9 @@ Given a variable declaration `int x` we can use `scanf("%d", x)` can be used to 
 * Code reference: Can be used to reference a specific line of code.
   * Code:
   ```
-  ### @ref:label or /// @ref:label
+  ### @ref:label or
+  /// @ref:label or
+  /*** @ref:label */
   ```
   
 * Code anchor links: Links to code anchor with corresponding label.
