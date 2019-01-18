@@ -20,6 +20,61 @@ When you take a look at it on GitHub, it may look a bit like this
 
 Note that the various stages of the project are represented by [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Each module links to a particular branch in the project repository, corresponding to that stage. Note that 
 the actual [project repository](https://github.com/codingandcommunity/sample-app/) that the curriculum is based off of is external to the curriculum repository.
+
+### Copilot Markdown
+
+The content shown to the user in the sidebar (instructions, descriptions, etc.) will be loaded from Markdown files with a few special additions.
+
+#### Example:
+
+Code:
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+  int x, y, sum;
+  
+  /// @ref:step1.1
+  /// Use scanf here to read in two numbers to x and y!
+  
+  sum = x + y
+  printf( "%d", sum ); 
+  return 0;
+}
+
+```
+Markdown:
+```
+---
+title: Step 1
+next: step_2.md
+prev: introduction.md
+jumpto: @ref:step1.1
+---
+Given a variable declaration `int x` we can use `scanf("%d", x)` can be used to a read an integer from the console and assign it to x. Use that [here](@ref:step1.1) to read in two integers, compute the sum, and assign it to `sum`!
+```
+
+#### Header Tags
+* ```title```: Title to display in sidebar
+* ```next```: A next button will be shown in the sidebar and will load the specified file when clicked.
+* ```prev```: ''
+* ```jumpto```: Line or reference to jump to when the markdown is loaded
+
+#### Special Comments and Tags
+
+* Code reference: Can be used to reference a specific line of code.
+  * Code:
+  ```
+  ### @ref:label or /// @ref:label
+  ```
+  
+* Code anchor links: Links to code anchor with corresponding label.
+  * Markdown:
+  ```
+  [link text](@ref:label)
+  ```
+
 ### Project Task Specifications
 
 ### Concept Specifications
