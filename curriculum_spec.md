@@ -38,7 +38,6 @@ int main() {
   /// @ref:step1.1
   /// Use scanf here to read in two numbers to x and y!
   
-  sum = x + y
   printf( "%d", sum ); 
   return 0;
 }
@@ -52,7 +51,7 @@ next: step_2.md
 prev: introduction.md
 jumpto: @ref:step1.1
 ---
-Given a variable declaration `int x` we can use `scanf("%d", x)` can be used to a read an integer from
+Given a variable declaration `int x` we can use `scanf("%d", x)` to a read an integer from
 the console and assign it to x. Use that [here](@ref:step1.1) to read in two integers, compute the sum,
 and assign it to `sum`!
 ```
