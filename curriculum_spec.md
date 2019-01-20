@@ -35,7 +35,7 @@ Code:
 int main() {
   int x, y, sum;
   
-  /// @ref:step1.1
+  /// STEP 1
   /// Use scanf here to read in two numbers to x and y!
   
   printf( "%d", sum ); 
@@ -49,10 +49,10 @@ Markdown:
 title: Step 1
 next: step_2.md
 prev: introduction.md
-jumpto: @ref:step1.1
+jumpto: @STEP 1
 ---
 Given a variable declaration `int x` we can use `scanf("%d", x)` to a read an integer from
-the console and assign it to x. Use that [here](@ref:step1.1) to read in two integers, compute the sum,
+the console and assign it to x. Use that [here](@STEP 1) to read in two integers, compute the sum,
 and assign it to `sum`!
 ```
 
@@ -60,22 +60,28 @@ and assign it to `sum`!
 * ```title```: Title to display in sidebar
 * ```next```: A next button will be shown in the sidebar and will load the specified file when clicked.
 * ```prev```: ''
-* ```jumpto```: Line or reference to jump to when the markdown is loaded
+* ```jumpto```: Line or label to jump to when the markdown is loaded
 
 #### Special Comments and Tags
 
-* Code reference: Can be used to reference a specific line of code.
-  * Code:
+* Instructional Block: Instructional blocks are multiline comments that whose lines start with any of the following:
+  ``` 
+  ///
+  ###
   ```
-  ### @ref:label or
-  /// @ref:label or
-  /*** @ref:label */
+  For example:
   ```
+  /// EXAMPLE
+  /// This is an 
+  /// instructional block
   
-* Code anchor links: Links to code anchor with corresponding label.
-  * Markdown:
+* Code links: The first line of each instructional block acts as a label that can be used in sidebar instructions. For example in the instruction markdown we can put:
   ```
-  [link text](@ref:label)
+  [link text](@EXAMPLE)
+  ```
+  to create a link to the instructional block in the code itself. If there are multiple instructional blocks with the same label, we can distinguish between them by adding #<order of occurence>, e.g. 
+  ```
+  [link text](@EXAMPLE#2)
   ```
 
 ### Project Task Specifications
