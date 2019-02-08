@@ -21,6 +21,8 @@ When you take a look at it on GitHub, it may look a bit like this
 Note that the various stages of the project are represented by [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Each module links to a particular branch in the project repository, corresponding to that stage. Note that 
 the actual [project repository](https://github.com/codingandcommunity/sample-app/) that the curriculum is based off of is external to the curriculum repository.
 
+When a project specification is completed, it can be forked into the [Spaceport Curriculums](https://github.com/spaceport-curriculums) organization. Make sure that the project has a good description and has a single topic set to the primary language of the project. Copilot and the Spaceport website will use the Github API endpoint to find [organization repositories](https://developer.github.com/v3/repos/#list-organization-repositories) to populate lists of available projects with a name, description, and thumbnail based off of the topic.
+
 ### Copilot Markdown
 
 The content shown to the user in the sidebar (instructions, descriptions, etc.) will be loaded from Markdown files with a few special additions.
