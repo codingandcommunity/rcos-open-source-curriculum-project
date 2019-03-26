@@ -41,7 +41,6 @@ And the following is a list of repositories containing curriculum information:
 | Sample Curriculum | This is an example project where a student implements a chess game using React. Built for testing purposes. | https://github.com/codingandcommunity/sample-curriculum   |
 | Sample App        | The actual projec that the above sample curriculum references. Modules of sample curriculum link to this repository. | https://github.com/codingandcommunity/sample-app        |
 | React Curriculum  | Teaching introductory programming in a React environment.          | https://github.com/codingandcommunity/RCOSReactcurriculum              |
-
 | Articles  | This repository contains the Markdown-formatted articles for Spaceport.          | https://github.com/codingandcommunity/test-articles              |
 
 
